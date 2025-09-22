@@ -98,11 +98,8 @@ console.log("Later Date:",laterdate.toString());
 
 //Q12
 
-var today = new Date();
-var hundredYearsBack = date.setFullYear(today.getFullYear() - 100);
-console.log("Current Date:",today.toString())
-console.log("The date 100 years back was: " + hundredYearsBack.toTimeString());
-
-
-
-
+// var currentDate = new Date();
+// var date100YearsBack = new Date(currentDate);
+// date100YearsBack.setFullYear(currentDate.getFullYear() - 100);
+// alert("Current Date: " + currentDate);
+// alert("Date 100 Years Back: " + date100YearsBack);
