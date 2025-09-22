@@ -88,18 +88,18 @@ console.log("Later Date:",laterdate.toString());
 
 //Q13
 
-// var age = +prompt("Enter your Age: ");
-// var currentYear = date.getFullYear()
-// var birthYear = currentYear - age;
-// console.log(`your age is ${age} \n Your birth year is ${birthYear}`);
+var age = +prompt("Enter your Age: ");
+var currentYear = date.getFullYear()
+var birthYear = currentYear - age;
+console.log(`your age is ${age} \n Your birth year is ${birthYear}`);
 
 
 
 
 //Q12
 
-// var currentDate = new Date();
-// var date100YearsBack = new Date(currentDate);
-// date100YearsBack.setFullYear(currentDate.getFullYear() - 100);
-// alert("Current Date: " + currentDate);
-// alert("Date 100 Years Back: " + date100YearsBack);
+var currentDate = new Date();
+var date100YearsBack = new Date(currentDate);
+date100YearsBack.setFullYear(currentDate.getFullYear() - 100);
+alert("Current Date: " + currentDate);
+alert("Date 100 Years Back: " + date100YearsBack);
