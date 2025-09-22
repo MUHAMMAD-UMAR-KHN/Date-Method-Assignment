@@ -82,3 +82,27 @@ else{
 
 const laterdate = new Date(2020, 11, 31);
 console.log("Later Date:",laterdate.toString());
+
+
+
+
+//Q13
+
+// var age = +prompt("Enter your Age: ");
+// var currentYear = date.getFullYear()
+// var birthYear = currentYear - age;
+// console.log(`your age is ${age} \n Your birth year is ${birthYear}`);
+
+
+
+
+//Q12
+
+var today = new Date();
+var hundredYearsBack = date.setFullYear(today.getFullYear() - 100);
+console.log("Current Date:",today.toString())
+console.log("The date 100 years back was: " + hundredYearsBack.toTimeString());
+
+
+
+
